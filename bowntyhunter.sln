@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bowntyhunter.CSharp", "bowntyhunter.CSharp.csproj", "{CAB12A35-8C8D-86A3-89A3-9355D9344ADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bowntyhunter.CSharp.Editor", "bowntyhunter.CSharp.Editor.csproj", "{B0F5AA61-B7B8-E2E2-9D4A-869C51A857F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAB12A35-8C8D-86A3-89A3-9355D9344ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB12A35-8C8D-86A3-89A3-9355D9344ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB12A35-8C8D-86A3-89A3-9355D9344ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB12A35-8C8D-86A3-89A3-9355D9344ADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F5AA61-B7B8-E2E2-9D4A-869C51A857F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F5AA61-B7B8-E2E2-9D4A-869C51A857F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F5AA61-B7B8-E2E2-9D4A-869C51A857F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F5AA61-B7B8-E2E2-9D4A-869C51A857F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -2,10 +2,12 @@
 using System.Collections;
 using UnityEngine.UI;
 
+//This is meant to be the renderer to the main character
+//
+
 public class graphic : MonoBehaviour {
     Animator anim;
 
-    // Use this for initialization
     void Start() {
 
         anim = GetComponent<Animator>();

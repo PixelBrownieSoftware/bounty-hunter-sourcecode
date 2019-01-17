@@ -20,7 +20,7 @@ public class fade : MonoBehaviour {
 
     void Update()
     {
-        //debug purpposes
+        //Debug purpposes
         /*
         if (Input.GetButtonDown("decline"))
         {
@@ -56,11 +56,6 @@ public class fade : MonoBehaviour {
             time += Time.deltaTime * (1.0f / transitionTime);
         }
         if (levelgoing.level == 5) { SceneManager.LoadScene("finalcutscene"); }
-        
-        //    fadeImg.gameObject.SetActive(false);
     }
-
-
-    // Update is called once per frame
 
 }

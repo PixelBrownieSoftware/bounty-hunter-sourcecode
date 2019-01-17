@@ -14,21 +14,17 @@ public class POUCH : MonoBehaviour {
 
     // POUCH is an acryonm for Prowniebrowniesoft's Outstandingly Ultimate Cutscene Handler
 
-	public void Update () {
-        if (timerOn)
-        {
-            timer -= Time.deltaTime;
-        }
-        if (timer <= 0.0 && timerOn)
-        {
-            scene++;
-            timerOn = false;
-        }
+	public void Update () 
+	{
+        	if (timerOn)
+        	{
+            		timer -= Time.deltaTime;
+        	}
+        	if (timer <= 0.0 && timerOn)
+        	{
+            		scene++;
+            		timerOn = false;
+        	}
         }
 
-    void Cutscene()
-    {
-
-
-    }
 }
